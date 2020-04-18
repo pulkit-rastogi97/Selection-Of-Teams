@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Cricket-Team-Selection"
+    }
+  },
+  "defaultProject": "Cricket-Team-Selection",
+  "cli": {
+    "analytics": "1b561267-ba20-490d-a2cf-b77533c12f2c"
+  }
 }
