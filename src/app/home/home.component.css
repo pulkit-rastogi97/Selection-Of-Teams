@@ -1,0 +1,8 @@
+img{
+    height: 500px;
+    width:800px;
+    margin: 0 auto;
+}
+.item{
+    align-items: center;
+}

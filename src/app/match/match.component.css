@@ -1,0 +1,23 @@
+img{
+  width: auto;
+  height: 100px;
+}   
+  table{
+  display: 'inline-block';
+  float: left;
+  margin-left: 50px;
+}
+  table caption{
+  text-align: center;
+}       
+  th{
+  text-align: center;
+  background-color: peachpuff;
+  font-weight: bold;
+}
+ 
+#myHeader{
+  position:absolute;
+  top:0;
+  right:0;
+} 

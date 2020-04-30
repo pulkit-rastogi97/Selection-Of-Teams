@@ -1,0 +1,15 @@
+<div class="container" style="align-items: center;"><table >
+  <tr>
+      <th>Match Type</th>
+      <th>Ground Name</th> 
+      <th>Opposite Team</th>
+      <th>Date Of the Match</th>
+  </tr>
+  <tr *ngFor="let match of matches, let i = index">
+      <td>{{match.matchType}}</td>
+      <td>{{match.groundName}}</td>
+      <td>{{match.oppositeTeam}}</td>
+      <td>{{match.dateOfTheMatch}}</td>         
+  </tr>
+  </table>
+  </div>

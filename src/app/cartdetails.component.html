@@ -1,0 +1,19 @@
+<h1>My Cart Products</h1>
+<table border="3px solid black" align="center">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Product Image</th>
+        <th>Category</th>    
+        <th>Action</th>    
+    </tr>
+    <tr *ngFor="let product of cartProducts; let i = index;">
+        <td>{{product.id}}</td>
+        <td>{{product.name}}</td>
+        <td>Rs {{product.price}}/-</td>
+        <td><img [src]="product.imgPath" /></td>
+        <td>{{product.category}}</td>   
+        <td><button (click)="remove(i)">delete</button></td>   
+    </tr>
+</table>
